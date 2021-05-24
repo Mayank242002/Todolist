@@ -18,7 +18,7 @@ app.use(
 app.use(express.static("public"));
 
 mongoose.connect(
-  "Mongodb url can't be shared here",
+  "mongodb+srv://Mayank-Singh-Negi:test123@cluster0.g5r5n.mongodb.net/todolistDB?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
